@@ -12,33 +12,45 @@ export default class IndexPage extends React.Component {
       <Layout>
         <section className="section">
           <div className="container">
-            <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
-            </div>
-            {posts
-              .map(({ node: post }) => (
-                <div
-                  className="content"
-                  style={{ border: '1px solid #333', padding: '2em 4em' }}
-                  key={post.id}
-                >
-                  <p>
-                    <Link className="has-text-primary" to={post.fields.slug}>
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <small>{post.frontmatter.date}</small>
-                  </p>
-                  <p>
-                    {post.excerpt}
-                    <br />
-                    <br />
-                    <Link className="button is-small" to={post.fields.slug}>
-                      Keep Reading →
-                    </Link>
-                  </p>
+            <div className="columns">
+              <div className="column is-two-thirds">
+                <div className="content">
+                  <h1 className="has-text-weight-bold is-size-2">News and Reviews</h1>
                 </div>
-              ))}
+                <div className="columns is-multiline">
+                {posts
+                  .map(({ node: post }) => (
+                  <div className="column is-half" key={post.id}>
+                    <div class="card">
+                      <div class="card-content">
+                        <div class="content">
+                          <h4>
+                            {post.frontmatter.title}
+                          </h4>
+                          <p>
+                            {post.excerpt}
+                          </p>
+                        </div>
+                      </div>
+                      <footer className="card-footer">
+                        <p className="card-footer-item">
+                          <time datetime={post.frontmatter.date}>{post.frontmatter.date}</time>
+                        </p>
+                        <p className="card-footer-item">
+                          <Link className="" to={post.fields.slug}>
+                            <span>Keep Reading</span>
+                            <span className="icon is-right">
+                              <i className="fas fa-angle-right"></i>
+                            </span>
+                          </Link>
+                        </p>
+                      </footer>
+                    </div>
+                  </div>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </Layout>

@@ -1,13 +1,19 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,900|Open+Sans:400,400i,700,700i')
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css')
 
 // Config vars
-// Kalidi logo brand color: #FD461E
-$kaldi-red: #D64000
-$kaldi-red-invert: #fff
+// Maschine Learning logo brand color: #3A55FF
+$ml-blue: #3A55FF
+$ml-blue-invert: #fff
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
+$primary: $ml-blue
+$primary-invert: $ml-blue-invert
 $body-color: #333
+
+$family-sans-serif: "Open Sans", sans-serif
+$family-primary: $family-sans-serif
+$family-secondary: "Montserrat", sans-serif
 
 .content .taglist
   list-style: none
@@ -20,7 +26,7 @@ $body-color: #333
   justify-content: left
   align-items: center
   li
-    padding: 0 2rem 1rem 0
+    padding: 0 1rem 1rem 0
     margin-bottom: 1.5rem
     margin-top: 0
 
@@ -42,3 +48,29 @@ $body-color: #333
   margin-top: 0 !important
 
 @import "~bulma"
+
+// Post Bulma over-rides
+//// Navbar
+.navbar 
+  background-color: $grey-darker
+  .navbar-item
+    color: $primary-invert
+    font-family: $family-secondary
+    text-transform: uppercase
+    font-size: .8rem
+    .site-title
+      font-weight: 900
+      font-size: 1rem
+      color: $primary-invert
+      span 
+        font-weight: 500
+  .navbar-burger
+    color: $primary-invert
+
++until($navbar-breakpoint)
+  .navbar-menu
+    background-color: $grey
+
+//// Content
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .title
+  font-family: $family-secondary
