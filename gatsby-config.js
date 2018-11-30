@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
-    description: 'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+    title: 'Maschine Learning | Training, tips, and news from across the web for Native Instruments Machine hardware and software.',
+    description: 'This site is an aggregation of all things Maschine, with a focus on learning and tutorials.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +19,12 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages',
+      },
+    },
+    {
+      resolve: '@uptimeventures/gatsby-source-rss',
+      options: {
+        feeds: ['https://feed.rssunify.com/5bfdbe036b648/rss.xml'],
       },
     },
     {

@@ -16,7 +16,7 @@ class Navbar extends React.Component {
     const menuActive = this.state.showMenu ? 'is-active' : '';
     const burgerActive = this.state.showMenu ? 'is-active' : '';
     return (     
-      <nav className="navbar">
+      <nav className="navbar is-fixed-top">
         <div className="container">
           <div className="navbar-brand">
             <Link className="navbar-item" to="/">
