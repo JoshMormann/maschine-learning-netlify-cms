@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: A guide to self-training
+title: A Guide to Self-Training
 date: 2017-01-04T15:04:10.000Z
 description: >-
   Learning anything online can be frustrating, but it can also be one of the
@@ -28,13 +28,13 @@ As the author of this blog, I have taught myself everything that I know in my ca
 
 The means I used to stay ahead of the curve were pretty simple. And I've narrowed my approach down to 5 simple things. 
 
-## 1. Re-Renew your Passion. 
+## 1. Re-Renew your Passion.
 
 Passion is a slippery subject. The advice to; 'do what you love,' is a difficult thing to undertake for most people. There are some people that seem to have singular and burning passions for certain subjects that are almost outside themselves and beyond their control, so this standard advice often comes from that lucky lot, and they don't understand how elusive, or fickle passion can be. Finding that passion is often the hardest part, but fortunately for us, the hardest part about pursuing one's passion is likely not going to be difficult in the context of this site. If you are reading this, you are likely either passionate about music, or beat making, or some aspect of producing, or performing music, but the second hardest part of pursuing one's passion, is that it can come and go. Passion is fickle for most of us humans, and I believe it's even more so now than ever before, because of the ever-changing world we live in. Not only do our lives change, in terms of relationships, and family, and other personal circumstances, which can diminish our focus, but we are constantly being bombarded with imagery of happy people doing things that make them happy, or rich, which can have the affect of causing you to question your direction all together. 
 
 I don't entirely believe in the adage of 'fake it till you make it', but there is some wisdom there, what works for me, is to find ways to renew your passion, remake it, don't fake it. Take note of what inspires you to want to get to your lab and make sick beats, and use it. If it's listening to music that makes you want to make more music, turn it up. If it's watching performers play to a bumping crowd, keep some of those performances on tap, or go to those shows. If buying new gear gets you going, get some new gear (keep in mind that all these tricks can be a trap, as I'll explain later).  Whatever does the trick, keep those tricks up your sleeve, because you will either get frustrated, or you will slowly lose interest if you fail to consistently feed your passion for the craft. 
 
-## 2. Practice on the Pain 
+## 2. Practice on the Pain
 
 There are entire books on the subject of Deliberate Practice (I will cite at the bottom). Deliberate practice is essentially the act of practicing the right things regularly, and methodically. The right things are the ones that will stack up to overall improvement. Just like passion, the 'right things' can be hard to pin down, if you don't know what to look for, but the concept is simple: if it's annoying, tedious, awkward or painful, it may be something you should be focusing on. In most art forms, the most difficult parts of the craft to grasp are what separate the dabblers from the masters. 
 
@@ -56,15 +56,14 @@ Since we're focused on the Maschine here, then where to go deep is a given, but 
 
 While a recent documentary on 3D printing has made Bre Pettis out to be a bit of a [source closing tool bag](https://www.netflix.com/title/80005444), he and Kio Stark are the co-authors of what I think to be the best advice toward mastery of anything. The Cult of Done Manifesto applies to creativity in all its forms. You cannot be creative unless you create. Nothing is truly created until it's done. The real advice here is to learn by doing. Passion, Practice, and Study are essential for mastery, but they will yield nothing for you or anyone else in the long run, if you don't create things. So in closing I give you the Cult of Done Manifesto...
 
-
 **The Cult of Done Manifesto: **
 
 1. There are three states of being. Not knowing, action and completion.
 2. Accept that everything is a draft. It helps to get done.
 3. There is no editing stage.
 4. Pretending you know what you’re doing is almost the same as knowing what you
-are doing, so just accept that you know what you’re doing even if you don’t
-and do it.
+   are doing, so just accept that you know what you’re doing even if you don’t
+   and do it.
 5. Banish procrastination. If you wait more than a week to get an idea done, abandon it.
 6. The point of being done is not to finish but to get other things done.
 7. Once you’re done you can throw it away.
