@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: A Guide to Self-Training
-date: 2017-01-04T15:04:10.000Z
+date: 2018-12-03T15:04:10.000Z
 description: >-
   Learning anything online can be frustrating, but it can also be one of the
   most effective ways to learn anything, and stay up-to-date on whatever subject
