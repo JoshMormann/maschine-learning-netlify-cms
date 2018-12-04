@@ -1,19 +1,13 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: About Maschine Learning
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Since April Fool's Day 2009, when Native Instruments' Maschine entered the market, and took dead aim at the Akai MPC hardware, the world of audio production has never been the same. By combining the 16-pad configuration made famous by Akai, with the processing power of a host computer, Maschine opened a whole new world of production never before possible with the MPC. The MPC has been the heart and soul of countless hit records over the years, and perhaps NI's decision to blow the doors off the limits of self-contained hardware has given a number of users an infinity problem. Sometimes the limits of a system are exactly what set us free when creating. With the virtually limitless possibilities offered by the Maschine, and the regularly released improvements to the host software component the bounds continue to expand beyond the reach of most users. 
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+I believe that it's the very limits of the MPC that constrained so many artists to deliver such classic examples of creativity within those confines. However just like the power of CGI nearly destroyed the Star Wars franchise because the removal of prior constraints on the Lucas Epic gave way to a diversity of possibility that the story couldn't hold together on its own, the Maschine holds vast potential, and often becomes a misused tool in the kit. It affords almost too much possibility for some users. Some would be better just sticking with their DAW of choice. However, again like CGI, while it may have spoiled the prequels to Star Wars, the use of that creative potential is now commonplace and expected in most large-scale adventure films today. That is because the potential has been harnessed, it's no longer a blank slate that affords to many possibilities for directors and producers to stay on story, but the means by which any story can be told. 
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+The Maschine from National Instruments is a music-making, well, machine! What can be done with it, in the right hands, is astounding, either in the studio, or on stage in a live setting. The purpose behind this website is to collect all relevant and usable information, and aid in steering our readers toward a greater understanding of the platform, and the skills necessary to harness its power for whatever use-case one can dream up. 
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+We will aggregate all valuable resources for training and instruction, as well as inspirational examples of work being done with this remarkable combination of hardware and software. 
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+There is a great amount of valuable advice and tuition for Maschine out there. This is where we hope that one day, you can rely on finding all of it, and organized in a way that will allow you to get exactly what you need to take your music production to the next level.
