@@ -24,7 +24,7 @@ module.exports = {
     {
       resolve: '@uptimeventures/gatsby-source-rss',
       options: {
-        feeds: ['https://feed.rssunify.com/5bfdbe036b648/rss.xml'],
+        feeds: ['https://feed.rssunify.com/5c0fdad3ae711/rss.xml'],
       },
     },
     {
