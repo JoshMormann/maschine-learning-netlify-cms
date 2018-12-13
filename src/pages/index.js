@@ -3,17 +3,17 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Feed from '../components/Feed'
-import BackgroundImg from '../img/maschine-background.jpg'
 import logo from '../img/ml-logo-color.svg';
 
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
+    const { childImageSharp } = data.file
 
     return (
       <Layout>
-        <section className="hero is-large" style={{ background: `linear-gradient(to right, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0) 100%), url(${BackgroundImg})`, backgroundPosition: `center center`,  backgroundSize: `cover` }}>
+        <section className="hero is-large" style={{ background: `linear-gradient(to right, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0) 100%), url(${childImageSharp.fluid.src})`, backgroundPosition: `center center`,  backgroundSize: `cover` }}>
           <div className="hero-body">
             <div className="container">
               <div className="columns">
@@ -112,6 +112,15 @@ export const pageQuery = graphql`
             description
             date(formatString: "MMMM DD, YYYY")
           }
+        }
+      }
+    }
+    file(relativePath: {
+      regex: "/maschine-background/"
+    }) {
+      childImageSharp {
+        fluid(maxWidth:1000) {
+          src
         }
       }
     }
